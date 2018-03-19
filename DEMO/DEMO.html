@@ -1,0 +1,1454 @@
+<!DOCTYPE html>
+<html lang="zh" dir="ltr" class="client-js"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="UTF-8"><title>DEMO</title>
+<link rel="stylesheet" type="text/css" href="./src/DEMO.css">
+<link rel="stylesheet" type="text/css" href="./src/THBWiki.css">
+</head>
+<body>
+<div id="control-panel">
+<h5>選項</h5><hr />
+<h6>三级标题：</h6>
+<button class="control-panel-input" onclick="turnh3(this)">关闭</button>
+<br /><span class="control-panel-note">设定是否对三级标题启用</span>
+<br /><br />
+<h6>淡出距离：</h6>
+<input class="control-panel-input" type="number" value="30" min="0" max="1000" onblur="inputfade(this)"></input>
+<br /><span class="control-panel-note">设定标题更替时的淡出距离</span>
+<br /><br />
+<h6>Wiki代码：</h6>
+<pre id="NeedCode">
+&lt;fixed h3 /&gt;
+</pre>
+</div>
+	<div id="content" class="mw-body" role="main">
+						<h1 id="firstHeading" class="firstHeading" lang="zh"><span dir="auto">东方公式资料源</span></h1>
+<div id="bodyContent">
+								<div id="contentSub"></div>
+												<div id="jump-to-nav" class="mw-jump">
+					跳转至：					<a href="#mw-navigation">导航</a>、					<a href="#p-search">搜索</a>
+				</div>
+				<div id="mw-content-text" lang="zh" dir="ltr" class="mw-content-ltr"><ul>
+<li> 本页面收集整理所有官方作品（<a href="" title="官方游戏">官方游戏</a>、官方音乐、<a href="" title="官方书籍" class="mw-redirect">官方书籍</a>）以及ZUN参与的非官方作品（<a href="" title="西方Project">西方Project</a>、<a href="" title="其他ZUN参与的作品">其他ZUN参与的作品</a>）<b>之外</b>的公式资料以供查阅
+</li>
+<li> 日文名对应的链接是原地址，中文名对应的链接是Wiki页面（说明与翻译版，部分翻译页面内包含了原文）的地址
+</li>
+<li> 状态说明：<br><b><span style="color:LimeGreen;">有效</span></b>:源地址内容有效可访问；<b><span style="color:FireBrick;">失效</span></b>:源地址已经失效或无内容；<b><span style="color:Indigo;">需代理</span></b>:源地址有效但需翻墙。<br><b><span style="color:MediumAquaMarine;">有源</span></b>:有清晰可用且可以呈现的图源或片源；<b><span style="color:DimGray;">无源</span></b>:缺少可用的图源或片源；<b><span style="color:Chocolate;">其他</span></b>:有其他形式但无法呈现的图源或片源。<br><b><span style="color:Plum;">持续</span></b>:生放送在定期或不定期持续进行；<b><span style="color:Black;">休止</span></b>:持续性的生放送停止进行；<b><span style="color:Black;">结束</span></b>:非持续性的生放送已结束。<br><b><span style="color:CadetBlue;">转述</span></b>:存在第三方旁听者非正规的转述或描述形式的资料。
+</li>
+</ul>
+<p><br>
+</p>
+<div id="toc" class="toc"><div id="toctitle"><h2>目录</h2><span class="toctoggle">&nbsp;[<a href="#" class="internal" id="togglelink">隐藏</a>]&nbsp;</span></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#.E7.AB.99.E7.82.B9"><span class="tocnumber">1</span> <span class="toctext">站点</span></a>
+<ul>
+<li class="toclevel-2 tocsection-2"><a href="#.E5.85.AC.E5.BC.8F.E7.AB.99"><span class="tocnumber">1.1</span> <span class="toctext">公式站</span></a></li>
+<li class="toclevel-2 tocsection-3"><a href="#.E5.85.AC.E5.BC.8F.E7.AB.99.E5.86.85.E9.83.A8"><span class="tocnumber">1.2</span> <span class="toctext">公式站内部</span></a>
+<ul>
+<li class="toclevel-3 tocsection-4"><a href="#.E7.89.88.E6.9D.83.E7.9B.B8.E5.85.B3.E9.A1.B5.E9.9D.A2"><span class="tocnumber">1.2.1</span> <span class="toctext">版权相关页面</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-5"><a href="#.E6.97.A7.E5.85.AC.E5.BC.8F.E7.AB.99.E5.86.85.E9.83.A8"><span class="tocnumber">1.3</span> <span class="toctext">旧公式站内部</span></a></li>
+<li class="toclevel-2 tocsection-6"><a href="#.E7.9B.B8.E5.85.B3.E7.AB.99.E7.82.B9"><span class="tocnumber">1.4</span> <span class="toctext">相关站点</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-7"><a href="#.E7.8E.B0.E5.9C.BA"><span class="tocnumber">2</span> <span class="toctext">现场</span></a>
+<ul>
+<li class="toclevel-2 tocsection-8"><a href="#.E6.B4.BB.E5.8A.A8"><span class="tocnumber">2.1</span> <span class="toctext">活动</span></a></li>
+<li class="toclevel-2 tocsection-9"><a href="#.E5.AE.9A.E6.9C.9F.E6.94.BE.E9.80.81"><span class="tocnumber">2.2</span> <span class="toctext">定期放送</span></a>
+<ul>
+<li class="toclevel-3 tocsection-10"><a href="#.E4.BB.8E.E7.AC.AC.E4.BA.8C.E5.AE.B6.E5.BC.80.E5.A7.8B.E7.9A.84.E5.B9.BF.E6.92.AD"><span class="tocnumber">2.2.1</span> <span class="toctext">从第二家开始的广播</span></a></li>
+<li class="toclevel-3 tocsection-11"><a href="#.E6.9E.AF.E8.90.8ERadio"><span class="tocnumber">2.2.2</span> <span class="toctext">枯萎Radio</span></a></li>
+<li class="toclevel-3 tocsection-12"><a href="#PoriPori.E2.98.86Club"><span class="tocnumber">2.2.3</span> <span class="toctext">PoriPori☆Club</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-13"><a href="#.E6.94.BE.E9.80.81"><span class="tocnumber">2.3</span> <span class="toctext">放送</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-14"><a href="#.E8.AE.BF.E8.B0.88"><span class="tocnumber">3</span> <span class="toctext">访谈</span></a>
+<ul>
+<li class="toclevel-2 tocsection-15"><a href="#.E5.AE.98.E6.96.B9.E5.87.BA.E7.89.88.E7.89.A9"><span class="tocnumber">3.1</span> <span class="toctext">官方出版物</span></a></li>
+<li class="toclevel-2 tocsection-16"><a href="#.E5.88.8A.E8.BD.BD"><span class="tocnumber">3.2</span> <span class="toctext">刊载</span></a></li>
+<li class="toclevel-2 tocsection-17"><a href="#.E8.8A.82.E7.9B.AE"><span class="tocnumber">3.3</span> <span class="toctext">节目</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-18"><a href="#.E8.AF.84.E8.AE.BA.E4.B8.8E.E7.AD.94.E5.A4.8D"><span class="tocnumber">4</span> <span class="toctext">评论与答复</span></a>
+<ul>
+<li class="toclevel-2 tocsection-19"><a href="#.E6.97.A5.E6.96.87.E4.B8.9C.E6.96.B9Wiki.E4.BA.BA.E6.B0.94.E6.8A.95.E7.A5.A8.E8.AF.84.E8.AE.BA"><span class="tocnumber">4.1</span> <span class="toctext">日文东方Wiki人气投票评论</span></a></li>
+<li class="toclevel-2 tocsection-20"><a href="#.E7.AD.94.E5.A4.8D"><span class="tocnumber">4.2</span> <span class="toctext">答复</span></a></li>
+<li class="toclevel-2 tocsection-21"><a href="#.E4.B8.AA.E4.BA.BA.E9.97.AE.E7.AD.94"><span class="tocnumber">4.3</span> <span class="toctext">个人问答</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-22"><a href="#.E6.8F.90.E4.BE.9B"><span class="tocnumber">5</span> <span class="toctext">提供</span></a>
+<ul>
+<li class="toclevel-2 tocsection-23"><a href="#.E5.90.8C.E4.BA.BA.E5.BF.97"><span class="tocnumber">5.1</span> <span class="toctext">同人志</span></a></li>
+<li class="toclevel-2 tocsection-24"><a href="#.E5.90.8C.E4.BA.BACD"><span class="tocnumber">5.2</span> <span class="toctext">同人CD</span></a></li>
+<li class="toclevel-2 tocsection-25"><a href="#.E6.9D.82.E5.BF.97.E4.B8.93.E6.A0.8F"><span class="tocnumber">5.3</span> <span class="toctext">杂志专栏</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-26"><a href="#.E8.A1.A8.E7.BA.B8.EF.BC.8C.E7.89.B9.E5.85.B8.EF.BC.8C.E8.B5.A0.E5.93.81.E7.B1.BB"><span class="tocnumber">6</span> <span class="toctext">表纸，特典，赠品类</span></a>
+<ul>
+<li class="toclevel-2 tocsection-27"><a href="#.E4.BC.9A.E5.9C.BA"><span class="tocnumber">6.1</span> <span class="toctext">会场</span></a></li>
+<li class="toclevel-2 tocsection-28"><a href="#.E5.87.BA.E7.89.88.E7.89.A9"><span class="tocnumber">6.2</span> <span class="toctext">出版物</span></a></li>
+<li class="toclevel-2 tocsection-29"><a href="#.E5.85.B6.E4.BB.96"><span class="tocnumber">6.3</span> <span class="toctext">其他</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-30"><a href="#.E5.85.B6.E4.BB.96_2"><span class="tocnumber">7</span> <span class="toctext">其他</span></a></li>
+</ul>
+</div>
+
+<h2><span class="mw-headline" id=".E7.AB.99.E7.82.B9">站点</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="" title="编辑段落：站点">编辑</a><span class="mw-editsection-bracket">]</span></span></h2>
+<h3><span class="mw-headline" id=".E5.85.AC.E5.BC.8F.E7.AB.99">公式站</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="" title="编辑段落：公式站">编辑</a><span class="mw-editsection-bracket">]</span></span></h3>
+<ul>
+<li> 东方Project公式性站点
+</li>
+</ul>
+<table class="wikitable3" style="text-align:center">
+
+<tbody><tr>
+<th> 原标题 </th>
+<th> 中文标题 </th>
+<th>  说明 </th>
+<th> 状态 </th>
+<th> 语言
+</th></tr>
+<tr>
+<td> <a href="" target="_blank">上海アリス幻樂団</a> </td>
+<td> 上海爱丽丝幻乐团 </td>
+<td> 东方Project原作公式网站 </td>
+<td> <b><span style="color:LimeGreen;">有效</span></b> </td>
+<td> 日文
+</td></tr>
+<tr>
+<td> <a href="" target="_blank">博麗幻想書譜</a> </td>
+<td> 博丽幻想书谱 </td>
+<td> ZUN的博客 </td>
+<td> <b><span style="color:Indigo;">需代理</span></b> </td>
+<td> 日文
+</td></tr>
+<tr>
+<td> <a href="" target="_blank">博麗神主@korindo</a> </td>
+<td> 博丽神主@korindo </td>
+<td> ZUN的推特 </td>
+<td> <b><span style="color:Indigo;">需代理</span></b> </td>
+<td> 日文
+</td></tr>
+<tr>
+<td> <a href="" target="_blank">黄昏フロンティア</a> </td>
+<td> 黄昏边境 </td>
+<td> 官方格斗作制作方公式网站 </td>
+<td> <b><span style="color:Indigo;">需代理</span></b> </td>
+<td> 日文
+</td></tr>
+<tr>
+<td> <a href="" target="_blank">一迅社WEB 東方儚月抄</a> </td>
+<td> 一迅社WEB 东方儚月抄 </td>
+<td> 东方儚月抄一迅社公式网站 </td>
+<td> <b><span style="color:LimeGreen;">有效</span></b> </td>
+<td> 日文
+</td></tr>
+<tr>
+<td> <a href="" target="_blank">一迅社WEB 東方茨歌仙</a> </td>
+<td> 一迅社WEB 东方茨歌仙 </td>
+<td> 东方茨歌仙一迅社公式网站 </td>
+<td> <b><span style="color:LimeGreen;">有效</span></b> </td>
+<td> 日文
+</td></tr>
+<tr>
+<td> <a href="" target="_blank">ZUN 春河もえ 『東方鈴奈庵』 KADOKAWA</a> </td>
+<td> ZUN 春河萌 『东方铃奈庵』 KADOKAWA </td>
+<td> 东方铃奈庵角川公式网站 </td>
+<td> <b><span style="color:LimeGreen;">有效</span></b> </td>
+<td> 日文
+</td></tr>
+<tr>
+<td> <a href="" target="_blank">コンプティーク 東方三月精 正誤表</a> </td>
+<td> 角川 东方三月精 勘误表 </td>
+<td> 东方三月精勘误角川公式网站 </td>
+<td> <b><span style="color:FireBrick;">失效</span></b> </td>
+<td> 日文
+</td></tr>
+<tr>
+<td> <a href="" target="_blank">東方三月精 完結記念特設サイト</a> </td>
+<td> 东方三月精完结纪念特设网站 </td>
+<td> NicoNico特设 </td>
+<td> <b><span style="color:LimeGreen;">有效</span></b> </td>
+<td> 日文
+</td></tr>
+<tr>
+<td> <a href="" target="_blank">Amusement Makers(旧)公式サイト</a> </td>
+<td> Amusement Makers旧公式站 </td>
+<td> 东方旧作发布站 </td>
+<td> <b><span style="color:LimeGreen;">有效</span></b> </td>
+<td> 日文
+</td></tr>
+<tr>
+<td> <a href="" target="_blank">上海アリス幻樂団 幻想瓦版</a> </td>
+<td> 上海爱丽丝幻乐团 幻想瓦版 </td>
+<td> Mixi主页 </td>
+<td> <b><span style="color:LimeGreen;">有效</span></b> </td>
+<td> 日文
+</td></tr></tbody></table>
+<h3><span class="mw-headline" id=".E5.85.AC.E5.BC.8F.E7.AB.99.E5.86.85.E9.83.A8">公式站内部</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="" title="编辑段落：公式站内部">编辑</a><span class="mw-editsection-bracket">]</span></span></h3>
+<ul>
+<li> 当前公式站可访问的组成部分
+</li>
+</ul>
+<table class="wikitable3" style="text-align:center">
+
+<tbody><tr>
+<th> 原标题 </th>
+<th> 中文标题 </th>
+<th>  说明 </th>
+<th> 状态 </th>
+<th> 语言
+</th></tr>
+<tr>
+<td> <a href="" target="_blank">上海アリス幻樂団</a> </td>
+<td> <a href="" class="new" title="上海爱丽丝幻乐团公式站（页面不存在）">上海爱丽丝幻乐团</a> </td>
+<td> 公式站首页 </td>
+<td> <b><span style="color:LimeGreen;">有效</span></b> </td>
+<td> 日文
+</td></tr>
+<tr>
+<td> <a href="" target="_blank">幻想履歷　～ History</a> </td>
+<td> <a href="" class="new" title="幻想履历（页面不存在）">幻想履历　～ History</a> </td>
+<td> 公式站更新日志 </td>
+<td> <b><span style="color:LimeGreen;">有效</span></b> </td>
+<td> 日文
+</td></tr>
+<tr>
+<td> <a href="" target="_blank">東方遊戲　～ Game</a> </td>
+<td> <a href="" class="new" title="东方游戏（页面不存在）">东方游戏　～ Game</a> </td>
+<td> ZUN的游戏作品的信息 </td>
+<td> <b><span style="color:LimeGreen;">有效</span></b> </td>
+<td> 日文
+</td></tr>
+<tr>
+<td> <a href="" target="_blank">上海音楽室　～ Music CD</a> </td>
+<td> <a href="" class="new" title="上海音乐室（页面不存在）">上海音乐室　～ Music CD</a> </td>
+<td> ZUN的音乐CD作品的信息 </td>
+<td> <b><span style="color:LimeGreen;">有效</span></b> </td>
+<td> 日文
+</td></tr>
+<tr>
+<td> <a href="" target="_blank">東方掲示板　～ Support BBS</a> </td>
+<td> <a href="" class="new" title="东方揭示板（页面不存在）">东方揭示板　～ Support BBS</a> </td>
+<td> 链接到他人托管的相关揭示板上 </td>
+<td> <b><span style="color:LimeGreen;">有效</span></b> </td>
+<td> 日文
+</td></tr>
+<tr>
+<td> <a href="" target="_blank">博麗幻想書譜　~ Blog</a> </td>
+<td> <a href="" class="new" title="博丽幻想书谱（页面不存在）">博丽幻想书谱　~ Blog</a> </td>
+<td> ZUN的新博客 </td>
+<td> <b><span style="color:Indigo;">需代理</span></b> </td>
+<td> 日文
+</td></tr></tbody></table>
+<h4><span class="mw-headline" id=".E7.89.88.E6.9D.83.E7.9B.B8.E5.85.B3.E9.A1.B5.E9.9D.A2">版权相关页面</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="" title="编辑段落：版权相关页面">编辑</a><span class="mw-editsection-bracket">]</span></span></h4>
+<ul>
+<li> 公式站链接到其他网站的公式页面
+</li>
+</ul>
+<table class="wikitable3" style="text-align:center">
+
+<tbody><tr>
+<th> 原标题 </th>
+<th> 中文标题 </th>
+<th>  说明 </th>
+<th> 状态 </th>
+<th> 语言
+</th></tr>
+<tr>
+<td> <a href="" target="_blank">上海アリス幻樂団創作物の二次創作・使用関連ページ</a> </td>
+<td> <a href="" class="new" title="二次创作以及使用规则（页面不存在）">上海爱丽丝幻乐团创作物的二次创作·使用关联页面</a> </td>
+<td> 相关规则 </td>
+<td> <b><span style="color:LimeGreen;">有效</span></b> </td>
+<td> 日文
+</td></tr></tbody></table>
+<ul>
+<li> <a href="" class="new" title="二次创作以及使用规则（页面不存在）">上海爱丽丝幻乐团创作物的二次创作·使用关联页面</a>链接到的页面
+</li>
+</ul>
+<table class="wikitable3" style="text-align:left">
+
+<tbody><tr>
+<th> 原标题 </th>
+<th> 中文标题 </th>
+<th>  说明 </th>
+<th> 状态 </th>
+<th> 语言
+</th></tr>
+<tr>
+<td> <a href="" target="_blank">上海アリス幻樂団様の場合の著作権の基本概念</a> </td>
+<td> <a href="" title="二次创作以及使用规则/著作权的基本概念">上海爱丽丝幻乐团的情况下著作权的基本概念</a> </td>
+<td> 基本概念 </td>
+<td> <b><span style="color:LimeGreen;">有效</span></b> </td>
+<td> 日文
+</td></tr>
+<tr>
+<td> <a href="" target="_blank">「上海アリス幻樂団様の創作物全て」<br>が対象となる「二次創作・使用のFAQ」</a> </td>
+<td> <a href="" title="二次创作以及使用规则/二次创作及使用FAQ">以「上海爱丽丝幻乐团的全部作品」<br>为对象的「二次创作・使用FAQ」</a> </td>
+<td> 使用规则 </td>
+<td> <b><span style="color:LimeGreen;">有效</span></b> </td>
+<td> 日文
+</td></tr>
+<tr>
+<td> <a href="" target="_blank">東方楽曲及びＺＵＮ氏作曲楽曲の二次使用に関する条件</a> </td>
+<td> <a href="" class="new" title="二次创作以及使用规则/乐曲二次使用条件（页面不存在）">有关东方乐曲以及ZUN氏作曲乐曲的二次使用相关条件</a> </td>
+<td> 音乐规则 </td>
+<td> <b><span style="color:LimeGreen;">有效</span></b> </td>
+<td> 日文
+</td></tr>
+<tr>
+<td> <a href="" target="_blank">上記以外の個別案件</a>
+<ul>
+<li> リプレイの動画化
+</li>
+<li> タイトルの引用について
+</li>
+<li> 東方香霖堂の本文の写しについて
+</li>
+</ul>
+</td>
+<td> <a href="" title="二次创作以及使用规则/个别事件">上文之外的个别事件</a>
+<ul>
+<li> Replay的动画化
+</li>
+<li> 关于标题的引用
+</li>
+<li> 关于东方香霖堂正文的复制
+</li>
+</ul>
+</td>
+<td> 特例说明 </td>
+<td> <b><span style="color:LimeGreen;">有效</span></b> </td>
+<td> 日文
+</td></tr>
+<tr>
+<td> <a href="" target="_blank">博麗幻想書譜 2008-12-10</a> </td>
+<td> <a href="" title="博丽幻想书谱/2008-12-10">博丽幻想书谱 2008-12-10</a> </td>
+<td> 版权规则 </td>
+<td> <b><span style="color:Indigo;">需代理</span></b> </td>
+<td> 日文
+</td></tr>
+<tr>
+<td> <a href="" target="_blank">博麗幻想書譜 2011-02-14</a> </td>
+<td> <a href="" title="博丽幻想书谱/2011-02-14">博丽幻想书谱 2011-02-14</a> </td>
+<td> 版权规则 </td>
+<td> <b><span style="color:Indigo;">需代理</span></b> </td>
+<td> 日文
+</td></tr>
+<tr>
+<td> <a href="" target="_blank">博麗幻想書譜 2011-12-20</a> </td>
+<td> <a href="" title="博丽幻想书谱/2011-12-20">博丽幻想书谱 2011-12-20</a> </td>
+<td> 版权规则 </td>
+<td> <b><span style="color:Indigo;">需代理</span></b> </td>
+<td> 日文
+</td></tr></tbody></table>
+<h3><span class="mw-headline" id=".E6.97.A7.E5.85.AC.E5.BC.8F.E7.AB.99.E5.86.85.E9.83.A8">旧公式站内部</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="" title="编辑段落：旧公式站内部">编辑</a><span class="mw-editsection-bracket">]</span></span></h3>
+<ul>
+<li> 从公式站首页无法链至的孤立页面或已失效的页面
+</li>
+</ul>
+<table class="wikitable3" style="text-align:center">
+
+<tbody><tr>
+<th> 原标题 </th>
+<th> 中文标题 </th>
+<th>  说明 </th>
+<th> 状态 </th>
+<th> 语言
+</th></tr>
+<tr>
+<td> <a href="" target="_blank">東方幻想的音楽<br>Music of Lotus Land　～ Music</a> </td>
+<td> <a href="" title="东方幻想的音乐">东方幻想的音乐<br>Music of Lotus Land　～ Music</a> </td>
+<td> 旧公式站的MIDI与MP3页面 </td>
+<td> <b><span style="color:LimeGreen;">有效</span></b> </td>
+<td> 日文
+</td></tr>
+<tr>
+<td> <a href="" target="_blank">蓬莱少女絵幻想<br>ポヲトレイト オブ エキゾチックガアルズ</a> </td>
+<td> <a href="" title="蓬莱少女绘幻想">蓬莱少女绘幻想<br>Portrait of Exotic Girls</a> </td>
+<td> 旧公式站的插画页面 </td>
+<td> <b><span style="color:LimeGreen;">有效</span></b> </td>
+<td> 日文
+</td></tr>
+<tr>
+<td> <a href="" target="_blank">東方幻想懐古曲<br>Antique Game Music　～ PMD</a> </td>
+<td> <a href="" title="东方幻想怀古曲">东方幻想怀古曲<br>Antique Game Music　～ PMD</a> </td>
+<td> 旧公式站的PMD页面 </td>
+<td> <b><span style="color:LimeGreen;">有效</span></b> </td>
+<td> 日文
+</td></tr>
+<tr>
+<td> <a href="" target="_blank">幻想掲示板</a> </td>
+<td> <a href="" title="幻想揭示板">幻想揭示板</a> </td>
+<td> 上海爱丽丝幻乐团旧公式站的揭示板之一 </td>
+<td> <b><span style="color:FireBrick;">失效</span></b> </td>
+<td> 日文
+</td></tr>
+<tr>
+<td> <a href="" target="_blank">東方サポート掲示板</a> </td>
+<td> <a href="" class="new" title="东方Support揭示板（页面不存在）">东方Support揭示板</a> </td>
+<td> 上海爱丽丝幻乐团旧公式站的揭示板之一 </td>
+<td> <b><span style="color:FireBrick;">失效</span></b> </td>
+<td> 日文
+</td></tr>
+<tr>
+<td> <a href="" target="_blank">東方書譜</a> </td>
+<td> <a href="" title="东方书谱">东方书谱</a> </td>
+<td> ZUN的旧博客 </td>
+<td> <b><span style="color:FireBrick;">失效</span></b> </td>
+<td> 日文
+</td></tr>
+<tr>
+<td> Top絵&amp;Hit絵 </td>
+<td> <a href="" title="Top绘&amp;Hit绘">Top绘&amp;Hit绘</a> </td>
+<td> 公式站过去用过的Hit绘与Top绘 </td>
+<td> <b><span style="color:Chocolate;">其他</span></b> </td>
+<td> 日文
+</td></tr>
+<tr>
+<td> <a href="" target="_blank">絵描的幻視板</a> </td>
+<td> <a href="" class="new" title="绘描的幻视板（页面不存在）">绘描的幻视板</a> </td>
+<td> 早期存在的绘画揭示板 </td>
+<td> <b><span style="color:FireBrick;">失效</span></b> </td>
+<td> 日文
+</td></tr>
+<tr>
+<td> <a href="" target="_blank">神主紹介</a> </td>
+<td> <a href="" title="神主介绍">神主介绍</a> </td>
+<td> 旧公式站的ZUN自我介绍页面 </td>
+<td> <b><span style="color:LimeGreen;">有效</span></b> </td>
+<td> 日文
+</td></tr>
+<tr>
+<td> <a href="" target="_blank">上海情報</a> </td>
+<td> <a href="" class="new" title="上海爱丽丝幻乐团/公式站（页面不存在）">上海情报</a> </td>
+<td> 旧公式站的作品情报页面 </td>
+<td> <b><span style="color:LimeGreen;">有效</span></b> </td>
+<td> 日文
+</td></tr>
+<tr>
+<td> <a href="" target="_blank">平行幻想鄉</a> </td>
+<td> <a href="" class="new" title="上海爱丽丝幻乐团/公式站（页面不存在）">平行幻想乡</a> </td>
+<td> 旧公式站的友情链接页面 </td>
+<td> <b><span style="color:LimeGreen;">有效</span></b> </td>
+<td> 日文
+</td></tr></tbody></table>
+<h3><span class="mw-headline" id=".E7.9B.B8.E5.85.B3.E7.AB.99.E7.82.B9">相关站点</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="" title="编辑段落：相关站点">编辑</a><span class="mw-editsection-bracket">]</span></span></h3>
+<ul>
+<li> 东方Project关联物的公式站点
+</li>
+</ul>
+<table class="wikitable3" style="text-align:center">
+
+<tbody><tr>
+<th> 原标题 </th>
+<th> 中文标题 </th>
+<th>  说明 </th>
+<th> 状态 </th>
+<th> 语言
+</th></tr>
+<tr>
+<td> <a href="" target="_blank">一迅社WEB Febri</a> </td>
+<td> </td>
+<td> 一迅社刊物Febri公式站 </td>
+<td> <b><span style="color:LimeGreen;">有效</span></b> </td>
+<td> 日文
+</td></tr>
+<tr>
+<td> <a href="" target="_blank">コンプティーク.com コンプエース</a> </td>
+<td> Comptiq.com Comp-Ace </td>
+<td> 角川刊物Comp-Ace公式站 </td>
+<td> <b><span style="color:LimeGreen;">有效</span></b> </td>
+<td> 日文
+</td></tr>
+<tr>
+<td> <a href="" target="_blank">Amusement Makers</a> </td>
+<td> </td>
+<td> Amusement Makers旧公式站 </td>
+<td> <b><span style="color:FireBrick;">失效</span></b> </td>
+<td> 日文
+</td></tr>
+<tr>
+<td> <a href="" target="_blank">Amusement Makers</a> </td>
+<td> </td>
+<td> Amusement Makers现公式站 </td>
+<td> <b><span style="color:LimeGreen;">有效</span></b> </td>
+<td> 日文
+</td></tr></tbody></table>
+<h2><span class="mw-headline" id=".E7.8E.B0.E5.9C.BA">现场</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="" title="编辑段落：现场">编辑</a><span class="mw-editsection-bracket">]</span></span></h2>
+<h3><span class="mw-headline" id=".E6.B4.BB.E5.8A.A8">活动</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="" title="编辑段落：活动">编辑</a><span class="mw-editsection-bracket">]</span></span></h3>
+<table class="wikitable3" style="text-align:center">
+
+<tbody><tr>
+<th> 原标题 </th>
+<th> 中文标题 </th>
+<th> 日期 </th>
+<th> 说明 </th>
+<th> 状态 </th>
+<th> 语言
+</th></tr>
+<tr>
+<td> <a href="" target="_blank">明大祭企画「東方の夜明け」</a> </td>
+<td> <a href="" title="东方的黎明">明大祭企划「东方的黎明」</a> </td>
+<td> 2004.10.30 </td>
+<td> 明治大学学祭的谈话节目 </td>
+<td> <b><span style="color:FireBrick;">失效</span></b> </td>
+<td> 日文
+</td></tr>
+<tr>
+<td> 同人結界～東方という作品とゲーム創作幻想 </td>
+<td> <a href="" title="同人结界～名为东方的作品和游戏创作幻想">同人结界～名为东方的作品和游戏创作幻想</a> </td>
+<td> 2005.02.19 </td>
+<td> 东海高校 第六回サタデープログラム </td>
+<td> <b><span style="color:CadetBlue;">转述</span></b> </td>
+<td> 日文
+</td></tr>
+<tr>
+<td> <a href="" target="_blank">幻想伝承～創作の継承と終着～</a> </td>
+<td> <a href="" title="幻想传承～想像的继承与终点～">幻想传承～想像的继承与终点～</a> </td>
+<td> 2007.11.03 </td>
+<td> 第38回一桥祭座谈会企画演讲会 </td>
+<td> <b><span style="color:LimeGreen;">有效</span></b> </td>
+<td> 日文
+</td></tr>
+<tr>
+<td> 【東大×東方】ZUN氏講演会 </td>
+<td> <a href="" title="东大演讲会">【东大×东方】ZUN氏演讲会</a> </td>
+<td> 2010.11.23 </td>
+<td> 东京大学第61回驹场祭上ZUN氏的演讲会 </td>
+<td> <b><span style="color:CadetBlue;">转述</span></b> </td>
+<td> 日文
+</td></tr>
+<tr>
+<td> 「読者工学論　物語を書く前に考える６つのこと」第５回 </td>
+<td> <a href="" title="读者工学论">「读者工学论 写故事之前需要思考的6件事情」第5回</a> </td>
+<td> 2013.08.27 </td>
+<td> 作家座谈会 </td>
+<td> <b><span style="color:Chocolate;">其他</span></b> </td>
+<td> 日文
+</td></tr>
+<tr>
+<td> Anime Weekend Atlanta 2013<br>Renaissance Man ZUN </td>
+<td> <a href="" title="亚特兰大AWA座谈会">亚特兰大日本动漫周末 2013<br>文艺复兴式多面手ZUN</a> </td>
+<td> 2013.09.27 </td>
+<td> 美国AWA的ZUN专场座谈会 </td>
+<td> <b><span style="color:CadetBlue;">转述</span></b> </td>
+<td> 日文
+</td></tr>
+<tr>
+<td> 「第４回ゲレンデジャック」に参加してきました </td>
+<td> <a href="" title="ZUN/痛板滑雪大会">「第4届痛板滑雪大会」参加报告</a> </td>
+<td> 2014.01.11 </td>
+<td> 痛板滑雪大会记录 </td>
+<td> <b><span style="color:CadetBlue;">转述</span></b> </td>
+<td> 日文
+</td></tr></tbody></table>
+<h3><span class="mw-headline" id=".E5.AE.9A.E6.9C.9F.E6.94.BE.E9.80.81">定期放送</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="" title="编辑段落：定期放送">编辑</a><span class="mw-editsection-bracket">]</span></span></h3>
+<h4><span class="mw-headline" id=".E4.BB.8E.E7.AC.AC.E4.BA.8C.E5.AE.B6.E5.BC.80.E5.A7.8B.E7.9A.84.E5.B9.BF.E6.92.AD">从第二家开始的广播</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="" title="编辑段落：从第二家开始的广播">编辑</a><span class="mw-editsection-bracket">]</span></span></h4>
+<table class="wikitable3" style="text-align:center">
+
+<tbody><tr>
+<th> 原名称 </th>
+<th> 中文名 </th>
+<th> 说明 </th>
+<th> 状态 </th>
+<th> 语言
+</th></tr>
+<tr>
+<td> <a href="" target="_blank">2軒目から始まるラジオ</a> </td>
+<td> <a href="" title="2軒目から始まるラジオ">从第二家开始的广播</a> </td>
+<td> ZUN与<a href="" class="new" title="小此木哲朗（页面不存在）">小此木</a>进行的定期微型广播 2010年8月至今 </td>
+<td> <b><span style="color:Plum;">持续</span></b> </td>
+<td> 日文
+</td></tr></tbody></table>
+<h4><span class="mw-headline" id=".E6.9E.AF.E8.90.8ERadio">枯萎Radio</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="" title="编辑段落：枯萎Radio">编辑</a><span class="mw-editsection-bracket">]</span></span></h4>
+<table class="wikitable3" style="text-align:center">
+
+<tbody><tr>
+<th> 原标题 </th>
+<th> 中文名 </th>
+<th> 说明 </th>
+<th> 状态 </th>
+<th> 语言
+</th></tr>
+<tr>
+<td> 枯れラジ<br>萎えラジ
+</td>
+<td> <a href="" class="new" title="萎えラジ（页面不存在）">枯萎Radio</a>
+</td>
+<td style="text-align:left"> D.N.A.Softwares举办的不定期直播<br>　2007.08.12<br>　2008.08.23<br>　2009.09.21<br>　2010.08.07<br>　以上回中有ZUN参与
+</td>
+<td> <b><span style="color:Plum;">持续</span></b>
+</td>
+<td> 日文
+</td></tr></tbody></table>
+<h4><span class="mw-headline" id="PoriPori.E2.98.86Club">PoriPori☆Club</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="" title="编辑段落：PoriPori☆Club">编辑</a><span class="mw-editsection-bracket">]</span></span></h4>
+<table class="wikitable3" style="text-align:center">
+
+<tbody><tr>
+<th> 原名称 </th>
+<th> 中文名 </th>
+<th> 说明 </th>
+<th> 状态 </th>
+<th> 语言
+</th></tr>
+<tr>
+<td> <a href="" target="_blank">ポリポリ☆クラブ</a>
+</td>
+<td> <a href="" class="new" title="PoriPori☆Club（页面不存在）">PoriPori☆Club</a>
+</td>
+<td> 木村祥朗等人举办的定期直播，ZUN为常驻嘉宾。
+</td>
+<td> <b><span style="color:Plum;">持续</span></b>
+</td>
+<td> 日文
+</td></tr></tbody></table>
+<h3><span class="mw-headline" id=".E6.94.BE.E9.80.81">放送</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="" title="编辑段落：放送">编辑</a><span class="mw-editsection-bracket">]</span></span></h3>
+<table class="wikitable3" style="text-align:center">
+
+<tbody><tr>
+<th> 原标题 </th>
+<th> 中文标题 </th>
+<th> 时间 </th>
+<th> 说明 </th>
+<th> 状态 </th>
+<th> 语言
+</th></tr>
+<tr>
+<td> <a href="" target="_blank">Topics.1 のんだくれサークル新年会潜入</a> </td>
+<td> 神主ZUN的新年会潜入 </td>
+<td> 2009.02.04 </td>
+<td>あきば通 inニコニコ动画 试验动画002 </td>
+<td> <b><span style="color:LimeGreen;">有效</span></b> </td>
+<td> 日文
+</td></tr>
+<tr>
+<td> <a href="" target="_blank">Topics.2 ZUNさんと新年対談II</a> </td>
+<td> ZUN的新年对谈II </td>
+<td> 2009.06.01</td>
+<td> あきば通 inニコニコ动画 试验动画003 </td>
+<td> <b><span style="color:LimeGreen;">有效</span></b> </td>
+<td> 日文
+</td></tr>
+<tr>
+<td> <a href="" target="_blank">博麗神社あとの祭り</a> </td>
+<td> 博丽神社后日祭 </td>
+<td> 2010.03.14 </td>
+<td> 2010年博丽神社例大祭之后举办的生放送 </td>
+<td> <b><span style="color:LimeGreen;">有效</span></b> </td>
+<td> 日文
+</td></tr>
+<tr>
+<td> <a href="" target="_blank">博麗神社あとの祭り</a> </td>
+<td> 博丽神社后日祭 </td>
+<td> 2011.05.08 </td>
+<td> 2011年博丽神社例大祭之后举办的生放送 </td>
+<td> <b><span style="color:LimeGreen;">有效</span></b> </td>
+<td> 日文
+</td></tr>
+<tr>
+<td> <a href="" target="_blank">『東方Project』が可能にしたもの<br>「プラットフォームとしての東方」</a> </td>
+<td> <a href="" title="作为平台的东方">『东方Project』使之变为可能的事情<br>「作为平台的东方」</a> </td>
+<td> 2011.12.03 </td>
+<td> Content文化史学会2011年大会的座谈会 </td>
+<td> <b><span style="color:Black;">结束</span></b> </td>
+<td> 日文
+</td></tr>
+<tr>
+<td> <a href="" target="_blank">ニコニコ超会議にZUNさん来たる！</a> </td>
+<td> ZUN要来NICONICO超会议啦！ </td>
+<td> 2012.01.15 </td>
+<td> <a href="" class="new" title="NicoNico超会议2012（页面不存在）">NicoNico超会议2012</a> </td>
+<td> <b><span style="color:LimeGreen;">有效</span></b> </td>
+<td> 日文
+</td></tr>
+<tr>
+<td> <a href="" target="_blank">和同会日台交流打ち上げ生放送in台北！</a> </td>
+<td> 和同会庆功宴生放送in台北！ </td>
+<td> 2012.02.05 </td>
+<td> Fancy Frontier 19庆功会 </td>
+<td> <b><span style="color:Black;">结束</span></b> </td>
+<td> 日文
+</td></tr>
+<tr>
+<td> <a href="" target="_blank">超会議特番　東方project編</a> </td>
+<td> 超会议特番 东方Project篇 </td>
+<td> 2012.02.20 </td>
+<td> <a href="" class="new" title="NicoNico超会议2012（页面不存在）">NicoNico超会议2012</a> </td>
+<td> <b><span style="color:LimeGreen;">有效</span></b> </td>
+<td> 日文
+</td></tr>
+<tr>
+<td> <a href="" target="_blank">まるごと大発​表会＆<br>ニコニコ動画新バージョ​ン（Zero）チラ見せ in​ ニコファーレ</a> </td>
+<td> 完整大发表会&amp;<br>niconico动画新版本前瞻 in nicofarre </td>
+<td> 2012.04.06 </td>
+<td> <a href="" class="new" title="NicoNico超会议2012（页面不存在）">NicoNico超会议2012</a> </td>
+<td> <b><span style="color:LimeGreen;">有效</span></b> </td>
+<td> 日文
+</td></tr>
+<tr>
+<td> <a href="" target="_blank">ニコニコ超会議開催目前！ZUNビール試飲</a> </td>
+<td> NicoNico超会议开催前！ZUN啤酒试饮 </td>
+<td> 2012.04.27 </td>
+<td> <a href="" class="new" title="NicoNico超会议2012（页面不存在）">NicoNico超会议2012</a> </td>
+<td> <b><span style="color:LimeGreen;">有效</span></b> </td>
+<td> 日文
+</td></tr>
+<tr>
+<td> <a href="" target="_blank">ZUNと往く台湾の旅 最終夜 〜ホテルで飲むだけ生放送〜</a> </td>
+<td> 与ZUN同行的台湾之旅 最终夜 ~仅仅在宾馆喝酒的生放送~ </td>
+<td> 2013.02.17 </td>
+<td> ZUN的台湾之行 </td>
+<td> <b><span style="color:Black;">结束</span></b> </td>
+<td> 日文
+</td></tr>
+<tr>
+<td> <a href="" target="_blank">超会議２特番<br>超ZUNビール～ひろゆきを添えて、今年のビールの仕込み状況の報告編～</a> </td>
+<td> 超会议2特番<br>超ZUN啤酒~和博之一起进行今年啤酒酿造情况报告篇~ </td>
+<td> 2013.03.08 </td>
+<td> <a href="" class="new" title="NicoNico超会议2（页面不存在）">NicoNico超会议2</a> </td>
+<td> <b><span style="color:LimeGreen;">有效</span></b> </td>
+<td> 日文
+</td></tr>
+<tr>
+<td> <a href="" target="_blank">ZUNビールの仕込み</a> </td>
+<td> ZUN啤酒的酿造 </td>
+<td> 2013.03.25 </td>
+<td> <a href="" class="new" title="NicoNico超会议2（页面不存在）">NicoNico超会议2</a> </td>
+<td> <b><span style="color:LimeGreen;">有效</span></b> </td>
+<td> 日文
+</td></tr>
+<tr>
+<td> <a href="" target="_blank">超ZUNビール前日飲み放送～ひろゆきは遅れています～</a> </td>
+<td> 超ZUN啤酒前日饮酒放送~博之迟到了~ </td>
+<td> 2013.04.26 </td>
+<td> <a href="" class="new" title="NicoNico超会议2（页面不存在）">NicoNico超会议2</a> </td>
+<td> <b><span style="color:Black;">结束</span></b> </td>
+<td> 日文
+</td></tr>
+<tr>
+<td> <a href="" target="_blank">【超会議３】ZUNビール特番withひろゆき <br>博麗神社例大祭 超濃縮版発表</a> </td>
+<td> 【超会议3】ZUN啤酒特别节目with博之<br>博丽神社例大祭 超浓缩版公布  </td>
+<td> 2014.02.17 </td>
+<td> <a href="" class="new" title="NicoNico超会议3（页面不存在）">NicoNico超会议3</a> </td>
+<td> <b><span style="color:Black;">结束</span></b> </td>
+<td> 日文
+</td></tr></tbody></table>
+<h2><span class="mw-headline" id=".E8.AE.BF.E8.B0.88">访谈</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="" title="编辑段落：访谈">编辑</a><span class="mw-editsection-bracket">]</span></span></h2>
+<h3><span class="mw-headline" id=".E5.AE.98.E6.96.B9.E5.87.BA.E7.89.88.E7.89.A9">官方出版物</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="" title="编辑段落：官方出版物">编辑</a><span class="mw-editsection-bracket">]</span></span></h3>
+<ul>
+<li> 刊载在官方出版物上的ZUN访谈
+</li>
+</ul>
+<table class="wikitable3" style="text-align:center">
+
+<tbody><tr>
+<th> 原标题 </th>
+<th> 中文标题 </th>
+<th> 日期 </th>
+<th> 说明 </th>
+<th> 状态 </th>
+<th> 语言
+</th></tr>
+<tr>
+<td> 東方文花帖 ～ Bohemian Archive in Japanese Red.<br>"東方"ゲームデザイン概論 </td>
+<td> <a href="" title="东方文花帖（书籍）/访谈">东方文花帖 ～ Bohemian Archive in Japanese Red.<br>"东方"游戏设计概论</a> </td>
+<td> 2005.08.11 </td>
+<td> 书籍刊载 </td>
+<td> <b><span style="color:MediumAquaMarine;">有源</span></b> </td>
+<td> 日文
+</td></tr>
+<tr>
+<td> 東方三月精 ～ Eastern and Little Nature Deity.<br>神主の言霊 </td>
+<td> <a href="" title="东方三月精 ～ Eastern and Little Nature Deity./神主的言灵">东方三月精 ～ Eastern and Little Nature Deity.<br>神主的言灵</a> </td>
+<td> 2007.01.26 </td>
+<td> 书籍刊载 </td>
+<td> <b><span style="color:MediumAquaMarine;">有源</span></b> </td>
+<td> 日文
+</td></tr>
+<tr>
+<td> 東方求聞口授 ～ Symposium of Post-mysticism.<br>おまけインタビュー<br>本書で不遇なキャラの話をしよう </td>
+<td> <a href="" title="东方求闻口授/特典访谈">东方求闻口授 ～ Symposium of Post-mysticism.<br>特典访谈<br>谈谈那些没被本书相中的角色吧</a> </td>
+<td> 2012.04.27 </td>
+<td> 书籍刊载 </td>
+<td> <b><span style="color:MediumAquaMarine;">有源</span></b> </td>
+<td> 日文
+</td></tr></tbody></table>
+<h3><span class="mw-headline" id=".E5.88.8A.E8.BD.BD">刊载</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="" title="编辑段落：刊载">编辑</a><span class="mw-editsection-bracket">]</span></span></h3>
+<ul>
+<li> 刊载在网络或书籍刊物上的ZUN访谈
+</li>
+</ul>
+<table class="wikitable3" style="text-align:center">
+
+<tbody><tr>
+<th> 原标题 </th>
+<th> 中文标题 </th>
+<th> 日期 </th>
+<th> 说明 </th>
+<th> 状态 </th>
+<th> 语言
+</th></tr>
+<tr>
+<td> カラフルピュアガール 2003年9月号 </td>
+<td> <a href="" title="ZUN/Colorful PUREGIRL采访">Colorful PUREGIRL 2003年9月号</a> </td>
+<td> 2003.08.02 </td>
+<td> 杂志刊载ZUN采访专题 </td>
+<td> <b><span style="color:MediumAquaMarine;">有源</span></b> </td>
+<td> 日文
+</td></tr>
+<tr>
+<td> 「東方」制作者インタビュー<br>シューティングの方法論
+</td>
+<td> <a href="" title="射击游戏的方法论">「東方」制作者访问<br>「射击游戏的方法论」</a>
+</td>
+<td> 2005.12.04
+</td>
+<td style="text-align:left">  4Gamer.net企划<br>
+<p>　第1回 <a href="" target="_blank">ZONE K （KAEIDUKA）</a><br>
+　　　　<a href="" target="_blank">ZONE Z （ZUN）</a><br>
+　第2回 <a href="" target="_blank">ZONE T （TOHO）</a><br>
+　第3回 <a href="" target="_blank">ZONE D （DEVELOPER）</a><br>
+　　　　<a href="" target="_blank">ZONE F （FUTURE）</a>
+</p>
+</td>
+<td> <b><span style="color:LimeGreen;">有效</span></b>
+</td>
+<td> 日文
+</td></tr>
+<tr>
+<td> Interview in Player1 Magazine </td>
+<td> <a href="" title="Player1杂志采访">Player1杂志采访</a> </td>
+<td> 2006.03 </td>
+<td> 瑞典游戏杂志Player1 </td>
+<td> <b><span style="color:Chocolate;">其他</span></b> </td>
+<td> 瑞典文
+</td></tr>
+<tr>
+<td> コンプエースVol.11<br>上海アリス通信 ～三精版～ 号外 </td>
+<td> <a href="" title="上海爱丽丝通信/三精版">Comp Ace Vol.11<br>上海爱丽丝通信 ～三精版～ 号外</a> </td>
+<td> 2007.01.26  </td>
+<td> 杂志刊载 </td>
+<td> <b><span style="color:MediumAquaMarine;">有源</span></b> </td>
+<td> 日文
+</td></tr>
+<tr>
+<td> ComicREX 2007年7月号<br>「東方儚月抄」3誌合同連載へのいきごみ<br>原作ZUN氏インタビュー </td>
+<td> <a href="" title="ZUN/东方儚月抄采访">ComicREX 2007年7月号<br>「东方儚月抄」3杂志联合连载的热情<br>原作ZUN氏采访</a> </td>
+<td> 2007.06.08  </td>
+<td> 杂志刊载 </td>
+<td> <b><span style="color:MediumAquaMarine;">有源</span></b> </td>
+<td> 日文
+</td></tr>
+<tr>
+<td> キャラ☆メルVol.3<br>東方風神録特集 ZUN徹底インタビュー </td>
+<td> <a href="" title="ZUN/东方风神录采访">Chara☆Mel Vol.3<br>东方风神录特辑 ZUN彻底采访</a> </td>
+<td> 2007.12.25 </td>
+<td> 杂志刊载 </td>
+<td> <b><span style="color:MediumAquaMarine;">有源</span></b> </td>
+<td> 日文
+</td></tr>
+<tr>
+<td> キャラ☆メルVol.7<br>東方地霊殿インタビュー前編(DVD動画) </td>
+<td> <a href="" title="ZUN/东方地灵殿采访">Chara☆Mel Vol.7<br>东方地灵殿采访前篇(DVD动画)</a> </td>
+<td> 2008.12.25 </td>
+<td> 杂志附带DVD收录 </td>
+<td> <b><span style="color:MediumAquaMarine;">有源</span></b> </td>
+<td> 日文
+</td></tr>
+<tr>
+<td> キャラ☆メルVol.8<br>東方地霊殿インタビュー後編(DVD動画) </td>
+<td> <a href="" title="ZUN/东方地灵殿采访">Chara☆Mel Vol.8<br>东方地灵殿采访后篇(DVD动画)</a> </td>
+<td> 2009.03.25 </td>
+<td> 杂志附带DVD收录 </td>
+<td> <b><span style="color:MediumAquaMarine;">有源</span></b> </td>
+<td> 日文
+</td></tr>
+<tr>
+<td> キャラ☆メルVol.11<br>東方星蓮船インタビュー(DVD動画) </td>
+<td> <a href="" class="new" title="ZUN/东方星莲船采访（页面不存在）">Chara☆Mel Vol.11<br>东方星莲船采访(DVD动画)</a> </td>
+<td> 2009.12.25 </td>
+<td> 杂志附带DVD收录 </td>
+<td> <b><span style="color:MediumAquaMarine;">有源</span></b> </td>
+<td> 日文
+</td></tr>
+<tr>
+<td> Shooting Gameside Vol. 01<br>同人シューティング座談会 </td>
+<td> <a href="" class="new" title="ZUN/同人射击座谈会（页面不存在）">Shooting Gameside Vol. 01<br>同人射击座谈会</a> </td>
+<td> 2010.10.17 </td>
+<td> 杂志刊载  </td>
+<td> <b><span style="color:MediumAquaMarine;">有源</span></b> </td>
+<td> 日文
+</td></tr>
+<tr>
+<td> 批評誌「PLANETS vol.7」<br>竜騎士07氏との対談記事 </td>
+<td> <a href="" class="new" title="ZUN/龙骑士07对谈记事（页面不存在）">评论志「PLANETS vol.7」<br>龙骑士07对谈记事</a> </td>
+<td> 2010.08.15 </td>
+<td> 杂志刊载，ZUN与龙骑士对谈  </td>
+<td> <b><span style="color:Chocolate;">其他</span></b> </td>
+<td> 日文
+</td></tr>
+<tr>
+<td> キャラ☆メル Febri Vol.02<br>『妖精大戦争～東方三月精』インタビュー </td>
+<td> <a href="" title="ZUN/妖精大战争采访">Chara☆Mel Febri Vol.02<br>『妖精大战争～东方三月精』采访</a> </td>
+<td> 2010.09.25 </td>
+<td> 杂志刊载 </td>
+<td> <b><span style="color:MediumAquaMarine;">有源</span></b> </td>
+<td> 日文
+</td></tr>
+<tr>
+<td> キャラ☆メル Febri Vol.09<br>東方Project特集 ZUN氏ロングインタビュー </td>
+<td> <a href="" title="ZUN/东方神灵庙采访">Chara☆Mel Febri Vol.09<br>东方Project专集 ZUN氏长篇访谈</a> </td>
+<td> 2011.11.25 </td>
+<td> 杂志刊载 </td>
+<td> <b><span style="color:MediumAquaMarine;">有源</span></b> </td>
+<td> 日文
+</td></tr>
+<tr>
+<td> 「ゲームの修羅場６」 </td>
+<td> <a href="" title="ZUN/游戏的修罗场6">「游戏的修罗场6」</a> </td>
+<td> 2012.08.11 </td>
+<td> にじけん（Nijiken）的合同志刊载ZUN访谈  </td>
+<td> <b><span style="color:MediumAquaMarine;">有源</span></b> </td>
+<td> 日文
+</td></tr>
+<tr>
+<td> <a href="" target="_blank">スマートフォンにおける同人活動のこれから</a> </td>
+<td> <a href="" title="在智能手机上展开的同人活动的未来">在智能手机上展开的同人活动的未来</a> </td>
+<td> 2012.08.13 </td>
+<td> App★Get的ZUN氏特别专访  </td>
+<td> <b><span style="color:LimeGreen;">有效</span></b> </td>
+<td> 日文
+</td></tr>
+<tr>
+<td> <a href="" target="_blank">「『東方Project』は自分のライフワークみたいなものになっている」</a> </td>
+<td> <a href="" title="东方Project已经成为我毕生的事业">「『东方Project』已经成为我毕生的事业」</a> </td>
+<td> 2013.03.25 </td>
+<td> NICONICO自作Game Fes刊载 </td>
+<td> <b><span style="color:LimeGreen;">有效</span></b> </td>
+<td> 日文
+</td></tr>
+<tr>
+<td> コンプティーク 2013年8月号<br>自作ゲームの世界 </td>
+<td> <a href="" title="ZUN/Comptiq访谈">Comptiq 2013年8月号<br>自制游戏的世界</a> </td>
+<td> 2013.07.10 </td>
+<td> 杂志刊载ZUN采访专题 </td>
+<td> <b><span style="color:MediumAquaMarine;">有源</span></b> </td>
+<td> 日文
+</td></tr>
+<tr>
+<td> 週刊アスキー 2013年9/10増刊号<br>インディーズゲーム最前線 </td>
+<td> <a href="" title="ZUN/周刊ASCII访谈">周刊ASCII 2013年9/10增刊号<br>独立游戏最前线</a> </td>
+<td> 2013.08.05 </td>
+<td> 杂志刊载ZUN采访专题 </td>
+<td> <b><span style="color:MediumAquaMarine;">有源</span></b> </td>
+<td> 日文
+</td></tr>
+<tr>
+<td> touch Vol.13（晋遊舎）<br>東方Projectの原作者！ZUN氏にインタビュー！ </td>
+<td> <a href="" title="ZUN/touch采访">touch Vol.13（晋遊舎）<br>东方project的原作者！ZUN的采访！</a> </td>
+<td> 2013.08.27 </td>
+<td> 杂志刊载 </td>
+<td> <b><span style="color:MediumAquaMarine;">有源</span></b> </td>
+<td> 日文
+</td></tr>
+<tr>
+<td> Febri Vol.19<br>東方輝針城インタビュー </td>
+<td> <a href="" title="ZUN/东方辉针城采访">Febri Vol.19<br>东方辉针城采访</a> </td>
+<td> 2013.10.10 </td>
+<td> 杂志刊载 </td>
+<td> <b><span style="color:MediumAquaMarine;">有源</span></b> </td>
+<td> 日文
+</td></tr>
+<tr>
+<td> <a href="" target="_blank">"Digital Games Expo 2013"<br> – an indie games expo in Tokyo, Japan</a> </td>
+<td> <a href="" class="new" title="ZUN/BGG采访（页面不存在）">"数字游戏博览会2013"<br>——日本东京的一个独立游戏展</a> </td>
+<td> 2013.11.20 </td>
+<td> BoardGameGeek报道数游博2013 </td>
+<td> <b><span style="color:LimeGreen;">有效</span></b> </td>
+<td> 英文
+</td></tr>
+<tr>
+<td> Interview with Touhou Project Founder and Creator, ZUN
+</td>
+<td> <a href="" class="new" title="ZUN/TOM采访（页面不存在）">采访东方Project的创造者ZUN</a>
+</td>
+<td> 2013.12.27-29<br>（2013.08进行采访）
+</td>
+<td style="text-align:left">  Tokyo Otaku Mode东方Project专题<br>
+<p><a href="" target="_blank">Part 1</a><br>
+<a href="" target="_blank">Part 2</a><br>
+<a href="" target="_blank">Part 3</a>
+</p>
+</td>
+<td> <b><span style="color:LimeGreen;">有效</span></b>
+</td>
+<td> 英文
+</td></tr>
+<tr>
+<td> DOUJIN GAME × PACKAGE DESIGN Vol.01<br> </td>
+<td> <a href="" class="new" title="ZUN/DOUJIN GAME × PACKAGE DESIGN采访（页面不存在）">DOUJIN GAME × PACKAGE DESIGN Vol.01<br></a> </td>
+<td> 2013.12.31 </td>
+<td> 杂志刊载 </td>
+<td> <b><span style="color:Chocolate;">其他</span></b> </td>
+<td> 日文
+</td></tr></tbody></table>
+<h3><span class="mw-headline" id=".E8.8A.82.E7.9B.AE">节目</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="" title="编辑段落：节目">编辑</a><span class="mw-editsection-bracket">]</span></span></h3>
+<ul>
+<li> 包含ZUN访谈环节的节目
+</li>
+</ul>
+<table class="wikitable3" style="text-align:center">
+
+<tbody><tr>
+<th> 原标题 </th>
+<th> 中文标题 </th>
+<th> 日期 </th>
+<th> 说明 </th>
+<th> 状态 </th>
+<th> 语言
+</th></tr>
+<tr>
+<td> ザ・ネットスター　東方プロジェクト </td>
+<td> <a href="" class="new" title="TheNetStar东方节目（页面不存在）">TheNetStar东方节目</a> </td>
+<td> 2008.09.05 </td>
+<td> NHK电视台TheNetStar节目 </td>
+<td> <b><span style="color:Chocolate;">其他</span></b> </td>
+<td> 日文
+</td></tr>
+<tr>
+<td> 『MAG・ネット ～マンガ・アニメ・ゲームのゲンバ～』<br>第5回的东方专集 </td>
+<td> <a href="" class="new" title="MAGNET采访（页面不存在）">『MAG・NET ～漫画・动画・游戏的现场～』<br>第5回的东方专集</a> </td>
+<td> 2010.05.02 </td>
+<td> NHK电视台MAGNET节目 </td>
+<td> <b><span style="color:Chocolate;">其他</span></b> </td>
+<td> 日文
+</td></tr></tbody></table>
+<h2><span class="mw-headline" id=".E8.AF.84.E8.AE.BA.E4.B8.8E.E7.AD.94.E5.A4.8D">评论与答复</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="" title="编辑段落：评论与答复">编辑</a><span class="mw-editsection-bracket">]</span></span></h2>
+<h3><span class="mw-headline" id=".E6.97.A5.E6.96.87.E4.B8.9C.E6.96.B9Wiki.E4.BA.BA.E6.B0.94.E6.8A.95.E7.A5.A8.E8.AF.84.E8.AE.BA">日文东方Wiki人气投票评论</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="" title="编辑段落：日文东方Wiki人气投票评论">编辑</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>参见<a href="" title="ZUN/日文东方人气投票记录">ZUN的日文东方人气投票记录</a>词条
+</p>
+<h3><span class="mw-headline" id=".E7.AD.94.E5.A4.8D">答复</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="" title="编辑段落：答复">编辑</a><span class="mw-editsection-bracket">]</span></span></h3>
+<table class="wikitable3" style="text-align:center">
+
+<tbody><tr>
+<th> 项目 </th>
+<th> 日期 </th>
+<th> 说明 </th>
+<th> 源状态 </th>
+<th> 语言
+</th></tr>
+<tr>
+<td> <a href="" title="幻想揭示板/总结">幻想揭示板总结</a> </td>
+<td> 2002.08-2004.04 </td>
+<td> <a href="" target="_blank">幻想掲示板0207-0212</a><br><a href="" target="_blank">幻想掲示板0301-0306</a><br><a href="" target="_blank">幻想掲示板0307-0312</a><br><a href="" target="_blank">幻想掲示板0401-</a> </td>
+<td> <b><span style="color:FireBrick;">失效</span></b> </td>
+<td> 日文
+</td></tr>
+<tr>
+<td> <a href="" title="ZUN/邮件答复的备份">ZUN在邮件中答复的备份</a> </td>
+<td> 2004年3月2日  </td>
+<td> <a href="" target="_blank">旧Coolier 1522</a> </td>
+<td> <b><span style="color:LimeGreen;">有效</span></b> </td>
+<td> 日文
+</td></tr>
+<tr>
+<td> <a href="" title="ZUN/妖忌相关的答复">妖忌相关的答复</a> </td>
+<td> 2004年 </td>
+<td> <a href="" target="_blank">东方幻想局</a>刊载 </td>
+<td> <b><span style="color:FireBrick;">失效</span></b> </td>
+<td> 日文
+</td></tr>
+<tr>
+<td> <a href="" title="ZUN/月人关联答复">弘世的月人关联答复</a> </td>
+<td> 2005.05.04 </td>
+<td> 同人CD「帰るべき城」刊载 </td>
+<td> <b><span style="color:Chocolate;">其他</span></b> </td>
+<td> 日文
+</td></tr></tbody></table>
+<h3><span class="mw-headline" id=".E4.B8.AA.E4.BA.BA.E9.97.AE.E7.AD.94">个人问答</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="" title="编辑段落：个人问答">编辑</a><span class="mw-editsection-bracket">]</span></span></h3>
+<table class="wikitable3" style="text-align:center">
+
+<tbody><tr>
+<th> 项目 </th>
+<th> 日期 </th>
+<th> 说明 </th>
+<th> 源状态 </th>
+<th> 语言
+</th></tr>
+<tr>
+<td> <a href="" title="ZUN/C76对话">ZUN与韩国爱好者的对话</a> </td>
+<td> 2009.08.15 </td>
+<td> ComicMarket76现场对话 </td>
+<td> <b><span style="color:CadetBlue;">转述</span></b> </td>
+<td> 韩文
+</td></tr></tbody></table>
+<h2><span class="mw-headline" id=".E6.8F.90.E4.BE.9B">提供</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="" title="编辑段落：提供">编辑</a><span class="mw-editsection-bracket">]</span></span></h2>
+<h3><span class="mw-headline" id=".E5.90.8C.E4.BA.BA.E5.BF.97">同人志</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="" title="编辑段落：同人志">编辑</a><span class="mw-editsection-bracket">]</span></span></h3>
+<ul>
+<li> 接受过ZUN寄稿或参与的同人志出版物
+</li>
+</ul>
+<table class="wikitable3" style="text-align:center">
+
+<tbody><tr>
+<th> 原名称 </th>
+<th> 中文名称 </th>
+<th> 日期 </th>
+<th> 说明 </th>
+<th> 语言
+</th></tr>
+<tr>
+<td> 妖紅綺想 </td>
+<td> <a href="" class="new" title="TINAMI-Plus/妖紅綺想（页面不存在）">妖红绮想</a> </td>
+<td> 2003.12.30 (C65) </td>
+<td> TINAMI-Plus的合同志 </td>
+<td> 日文
+</td></tr>
+<tr>
+<td> 妖紅綺想2 </td>
+<td> <a href="" class="new" title="TINAMI-Plus/妖紅綺想2（页面不存在）">妖红绮想2</a> </td>
+<td> 2004.08.15 (C66) </td>
+<td> TINAMI-Plus的合同志 </td>
+<td> 日文
+</td></tr>
+<tr>
+<td> 博麗祭事記 </td>
+<td> <a href="" class="new" title="Coolier/博麗祭事記（页面不存在）">博丽祭事记</a> </td>
+<td> 2004.06.20 </td>
+<td> Coolier的合同志 </td>
+<td> 日文
+</td></tr>
+<tr>
+<td> 博麗祭事記 -花綴- </td>
+<td> <a href="" class="new" title="Coolier/博麗祭事記 -花綴-（页面不存在）">博丽祭事记 -花缀-</a> </td>
+<td> 2004.12.30 (C67) </td>
+<td> Coolier的合同志 </td>
+<td> 日文
+</td></tr>
+<tr>
+<td> 博麗祭事記 -遥霞月- </td>
+<td> <a href="" class="new" title="Coolier/博麗祭事記 -遥霞月-（页面不存在）">博丽祭事记 -遥霞月-</a> </td>
+<td> 2005.08.14 (C68) </td>
+<td> Coolier的合同志 </td>
+<td> 日文
+</td></tr>
+<tr>
+<td> 東方ラストワードコレクション </td>
+<td> <a href="" class="new" title="MiuMyu/東方ラストワードコレクション（页面不存在）">东方Last Word Collection</a> </td>
+<td> 2004.12.30 (C67) </td>
+<td> MiuMyu(東方らぢぉ)出品 </td>
+<td> 日文
+</td></tr>
+<tr>
+<td> 東方紫香花　～ Seasonal Dream Vision </td>
+<td> <a href="" title="东方紫香花">东方紫香花 ～ Seasonal Dream Vision</a> </td>
+<td> 2005.10.01  </td>
+<td> 虎之穴制作的半官方出版物 </td>
+<td> 日文
+</td></tr></tbody></table>
+<h3><span class="mw-headline" id=".E5.90.8C.E4.BA.BACD">同人CD</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="" title="编辑段落：同人CD">编辑</a><span class="mw-editsection-bracket">]</span></span></h3>
+<ul>
+<li> 接受过ZUN寄稿或参与的同人CD
+</li>
+</ul>
+<table class="wikitable3" style="text-align:center">
+
+<tbody><tr>
+<th> 原名称 </th>
+<th> 中文名称 </th>
+<th> 日期 </th>
+<th> 说明 </th>
+<th> 语言
+</th></tr>
+<tr>
+<td> Cradle - 東方幻樂祀典 </td>
+<td> <a href="" title="Cradle - 东方幻乐祀典" class="mw-redirect">Cradle - 东方幻乐祀典</a> </td>
+<td> 2004.08.15 (C66) </td>
+<td> Sound Sepher的音乐CD，ZUN提供了两首曲子 </td>
+<td> 日文
+</td></tr>
+<tr>
+<td> "＠"～Charisma～ </td>
+<td> <a href="" class="new" title="&quot;＠&quot;～Charisma～（页面不存在）">"＠"～Charisma～</a> </td>
+<td> 2004.12.30 (C67) </td>
+<td> 蒼天の雪的音乐CD，由ZUN设计的侧套 </td>
+<td> 日文
+</td></tr></tbody></table>
+<h3><span class="mw-headline" id=".E6.9D.82.E5.BF.97.E4.B8.93.E6.A0.8F">杂志专栏</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="" title="编辑段落：杂志专栏">编辑</a><span class="mw-editsection-bracket">]</span></span></h3>
+<ul>
+<li> 由ZUN撰写或提供稿件的杂志专栏
+</li>
+</ul>
+<table class="wikitable3" style="text-align:center">
+
+<tbody><tr>
+<th> 原名称 </th>
+<th> 中文名称 </th>
+<th> 刊载杂志 </th>
+<th> 日期 </th>
+<th> 说明 </th>
+<th> 语言
+</th></tr>
+<tr>
+<td> 博麗神主のゲームが先かお酒が先か </td>
+<td> <a href="" class="new" title="博丽神主的游戏优先还是酒优先（页面不存在）">博丽神主的游戏优先还是酒优先</a> </td>
+<td> Comptiq (0~43)<br>CompAce (44+，取材报道漫画) </td>
+<td> 2009.11.10至今 </td>
+<td> 刊载于角川旗下月刊杂志的ZUN所撰写的酒馆饭店评论文章 </td>
+<td> 日文
+</td></tr></tbody></table>
+<h2><span class="mw-headline" id=".E8.A1.A8.E7.BA.B8.EF.BC.8C.E7.89.B9.E5.85.B8.EF.BC.8C.E8.B5.A0.E5.93.81.E7.B1.BB">表纸，特典，赠品类</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="" title="编辑段落：表纸，特典，赠品类">编辑</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul>
+<li> 不包含ZUN无关的店铺自行特典
+</li>
+</ul>
+<h3><span class="mw-headline" id=".E4.BC.9A.E5.9C.BA">会场</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="" title="编辑段落：会场">编辑</a><span class="mw-editsection-bracket">]</span></span></h3>
+<table class="wikitable3" style="text-align:center">
+
+<tbody><tr>
+<th> 原名称 </th>
+<th> 中文名称 </th>
+<th> 日期 </th>
+<th> 说明 </th>
+<th> 语言
+</th></tr>
+<tr>
+<td> </td>
+<td> 鸠山祭展示用绘 </td>
+<td>  </td>
+<td>  </td>
+<td>
+</td></tr>
+<tr>
+<td> </td>
+<td> <a href="" class="new" title="上海爱丽丝幻乐团/摊位卡（页面不存在）">CM摊位卡片</a> </td>
+<td> 长期 </td>
+<td> ZUN参加CM时的摊位卡片 </td>
+<td> 日文
+</td></tr>
+<tr>
+<td> </td>
+<td> <a href="" class="new" title="上海爱丽丝幻乐团/摊位卡（页面不存在）">例大祭摊位卡片</a> </td>
+<td> 长期 </td>
+<td> ZUN参加例大祭时的摊位卡片 </td>
+<td> 日文
+</td></tr>
+<tr>
+<td> 上海アリス通信Ver2.5<br>上海アリス通信Ver2.7 </td>
+<td> <a href="" title="上海爱丽丝通信/永夜抄纸面预告">上海爱丽丝通信</a> </td>
+<td> 2003.12.30 (C65) </td>
+<td> 东方永夜抄纸面预告 </td>
+<td> 日文
+</td></tr>
+<tr>
+<td> 東方文花帖（ZUN絵 射命丸文） </td>
+<td> <a href="" title="东方文花帖（书籍）/特典">东方文花帖（ZUN绘 射命丸文）</a> </td>
+<td> 2005.08.14 (C68) </td>
+<td> 一迅社企业摊位特典版 </td>
+<td> 日文
+</td></tr>
+<tr>
+<td> 合同列最後尾札（文々。新聞 第百二十季号外） </td>
+<td> <a href="" class="new" title="文々。新闻（页面不存在）">合同列最后尾札（文々。新闻 第百二十季号外）</a> </td>
+<td> 2005.08.14 (C68) </td>
+<td> 上海爱丽丝幻乐团·黄昏边境摊位 </td>
+<td> 日文
+</td></tr></tbody></table>
+<h3><span class="mw-headline" id=".E5.87.BA.E7.89.88.E7.89.A9">出版物</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="" title="编辑段落：出版物">编辑</a><span class="mw-editsection-bracket">]</span></span></h3>
+<table class="wikitable3" style="text-align:center">
+
+<tbody><tr>
+<th> 原名称 </th>
+<th> 中文名称 </th>
+<th> 日期 </th>
+<th> 说明 </th>
+<th> 语言
+</th></tr>
+<tr>
+<td> コンプエースVol.1<br>プレゼント色紙（ZUN絵 博麗霊夢） </td>
+<td> <a href="" title="赠品与特典">Comp-Ace Vol.1<br>赠品彩纸（ZUN绘 博丽灵梦）</a> </td>
+<td> 2005.03.26 </td>
+<td> 东方三月精连载杂志创刊号 </td>
+<td> 日文
+</td></tr>
+<tr>
+<td> コンプエースVol.2<br>プレゼント色紙（ZUN絵 霧雨魔理沙） </td>
+<td> <a href="" title="赠品与特典">Comp-Ace Vol.1<br>赠品彩纸（ZUN绘 雾雨魔理沙）</a> </td>
+<td> 2005.06.25 </td>
+<td> 东方三月精连载杂志 </td>
+<td> 日文
+</td></tr>
+<tr>
+<td> コンプエースVol.2<br>とらのあな特典冊子（ZUN絵 博麗霊夢） </td>
+<td> <a href="" title="赠品与特典">Comp-Ace Vol.1<br>虎之穴特典册子（ZUN绘 博丽灵梦）</a> </td>
+<td> 2005.06.25 </td>
+<td> 东方三月精连载杂志 </td>
+<td> 日文
+</td></tr>
+<tr>
+<td> コンプエースVol.10<br>プレゼント色紙（ZUN絵 博麗霊夢・霧雨魔理沙） </td>
+<td> <a href="" title="赠品与特典">Comp-Ace Vol.1<br>赠品彩纸（ZUN绘 博丽灵梦·雾雨魔理沙）</a> </td>
+<td> 2006.12.26 </td>
+<td> 东方三月精连载杂志月刊化 </td>
+<td> 日文
+</td></tr>
+<tr>
+<td> コンプエースVol.13<br>プレゼントテレカ（ZUN絵 霧雨魔理沙） </td>
+<td> <a href="" title="赠品与特典">Comp-Ace Vol.1<br>赠品电话卡（ZUN绘 雾雨魔理沙）</a> </td>
+<td> 2007.03.26 </td>
+<td> 东方三月精连载杂志创刊两周年 </td>
+<td> 日文
+</td></tr>
+<tr>
+<td> コンプエース2008年5月号<br> プレゼント色紙（ZUN絵 ルナチャイルド） </td>
+<td> <a href="" title="赠品与特典">Comp-Ace 2008年5月号<br>赠品彩纸（ZUN绘 露娜切云德）</a> </td>
+<td> 2007.03.26 </td>
+<td> 东方三月精连载杂志创刊三周年 </td>
+<td> 日文
+</td></tr>
+<tr>
+<td> キャラ☆メルVol.1<br>プレゼント色紙（ZUN絵 博麗霊夢） </td>
+<td> <a href="" title="赠品与特典">Chara☆Mel Vol.1<br>赠品彩纸（ZUN绘 博丽灵梦）</a> </td>
+<td> 2007.06.25 </td>
+<td> 东方儚月抄小说连载杂志创刊号 </td>
+<td> 日文
+</td></tr>
+<tr>
+<td> 電撃萌王2007年8月号<br>プレゼント色紙（ZUN絵 霧雨魔理沙） </td>
+<td> <a href="" title="赠品与特典">电击萌王2007年8月号<br>赠品彩纸（ZUN绘 雾雨魔理沙）</a> </td>
+<td> 2007.06.26 </td>
+<td> 东方香霖堂连载杂志 </td>
+<td> 日文
+</td></tr>
+<tr>
+<td> ComicREX2006年12月号<br>特典ペーパー </td>
+<td> <a href="" title="赠品与特典">ComicREX2006年12月号<br>特典表纸</a> </td>
+<td> 2006.11.09 </td>
+<td> 记忆幻想乡漫画 虎之穴特典 </td>
+<td> 日文
+</td></tr>
+<tr>
+<td> ComicREX2008年1月号<br>プレゼント絵馬（ZUN絵） </td>
+<td> <a href="" title="赠品与特典">ComicREX2008年1月号<br>赠品绘马（ZUN绘）</a> </td>
+<td> 2007.06.26 </td>
+<td> 东方儚月抄漫画连载杂志 </td>
+<td> 日文
+</td></tr>
+<tr>
+<td> 東方求聞史紀特典ペーパー 4種類（ZUNが書く） </td>
+<td> <a href="" title="东方求闻史纪/特典">东方求闻史纪四种特典表纸（ZUN撰写）</a> </td>
+<td> 2006.12.27 </td>
+<td> GAMERS、虎之穴、WhiteCanvas、MelonBooks四家店铺 </td>
+<td> 日文
+</td></tr></tbody></table>
+<h3><span class="mw-headline" id=".E5.85.B6.E4.BB.96">其他</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="" title="编辑段落：其他">编辑</a><span class="mw-editsection-bracket">]</span></span></h3>
+<table class="wikitable3" style="text-align:center">
+
+<tbody><tr>
+<th> 原标题 </th>
+<th> 中文标题 </th>
+<th> 日期 </th>
+<th> 说明 </th>
+<th> 语言
+</th></tr>
+<tr>
+<td> ホワイトキャンパス新2号店<br>コミュニケーションノート裏<br>（ZUN絵 博麗霊夢） </td>
+<td> WhiteCanvas新2号店<br>通讯注意事项里<br>（ZUN绘 博丽灵梦） </td>
+<td> 2011.11.25-12.05 </td>
+<td>  </td>
+<td> 日文
+</td></tr>
+<tr>
+<td> 第三回 秋葉原ビールフェア </td>
+<td> 第三回 <a href="" title="秋叶原啤酒节">秋叶原啤酒节</a> </td>
+<td> 2011.11.25-12.05 </td>
+<td> ZUN提供插画 </td>
+<td> 日文
+</td></tr>
+<tr>
+<td> 第四回 秋葉原ビールフェア </td>
+<td> 第四回 <a href="" title="秋叶原啤酒节">秋叶原啤酒节</a> </td>
+<td> 2012.04.27-05.06 </td>
+<td> ZUN提供插画 </td>
+<td> 日文
+</td></tr>
+<tr>
+<td> 第五回 秋葉原ビールフェア </td>
+<td> 第五回 <a href="" title="秋叶原啤酒节">秋叶原啤酒节</a> </td>
+<td> 2012.11.23-11.02 </td>
+<td> ZUN提供插画 </td>
+<td> 日文
+</td></tr>
+<tr>
+<td> 第六回 秋葉原ビールフェア </td>
+<td> 第六回 <a href="" title="秋叶原啤酒节">秋叶原啤酒节</a> </td>
+<td> 2013.04.26-05.05 </td>
+<td> ZUN提供插画 </td>
+<td> 日文
+</td></tr>
+<tr>
+<td> 紅白饅頭 </td>
+<td> 红白馒头 </td>
+<td> 2012.05.27(例大祭9) </td>
+<td> ZUN绘制包装图 </td>
+<td> 日文
+</td></tr>
+<tr>
+<td> 超みかんエール </td>
+<td> <a href="" title="ZUN自制啤酒">超蜜柑麦酒</a> </td>
+<td> 2012.04.28-29 (NICONICO超会议2012) </td>
+<td> ZUN贩卖的自制啤酒 </td>
+<td> 日文
+</td></tr>
+<tr>
+<td> 超不夜城レッド </td>
+<td> <a href="" title="ZUN自制啤酒">超不夜城Red</a> </td>
+<td> 2013.04.27-28(NICONICO超会议2) </td>
+<td> ZUN贩卖的自制啤酒 </td>
+<td> 日文
+</td></tr></tbody></table>
+
+<h2><span class="mw-headline" id=".E5.85.B6.E4.BB.96_2">其他</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="" title="编辑段落：其他">编辑</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul>
+<li>此目录收集整理东方关联人物的公式资料
+</li>
+</ul>
+<table class="wikitable3" style="text-align:center">
+
+<tbody><tr>
+<th> 原标题 </th>
+<th> 中文标题 </th>
+<th> 日期 </th>
+<th> 说明 </th>
+<th> 状态 </th>
+<th> 语言
+</th></tr>
+<tr>
+<td> <a href="" target="_blank">「自作ゲーム制作にはブッ飛んだ愛が必要」</a> </td>
+<td> <a href="" title="自制游戏需要的是异乎寻常的爱">「自制游戏需要的是异乎寻常的爱」</a> </td>
+<td> 2013.09.19 </td>
+<td> NICONICO自作Game Fes刊载的<br>对海原海豚的访问 </td>
+<td> <b><span style="color:LimeGreen;">有效</span></b> </td>
+<td> 日文
+</td></tr>
+</tbody></table>
+<span id="ExtFixedHeaderEnd"></span>
+<table class="navbox" cellspacing="0" style="background: #fdfdfd; width:100%; vertical-align:middle;;border: 1px solid #7384B5; width: 100%; margin: auto; clear: both; font-size: 88%; text-align: center; padding: 1px"><tbody><tr><td style="padding:2px;"><table cellspacing="0" class="nowraplinks mw-collapsible uncollapsed" style="width:100%;background:transparent;color:inherit;;"><tbody><tr><th style=";background: #cedaff; padding-left: text-align: center" colspan="3" class="navbox-title"><span style="font-size:110%;">资料概念导航</span></th></tr><tr style="height:2px;"><td></td></tr><tr><td class="navbox-group" style=";background: #dde6ff; padding-left: 1em; padding-right: 1em; white-space: nowrap; text-align: right;">基础概念</td><td style="text-align:left;border-left:2px solid #fdfdfd;width:100%;padding:0px;background: transparent; text-align: left;background: transparent;" class="navbox-list navbox-odd"><div style="padding:0em 0.25em"></div><table cellspacing="0" class="nowraplinks navbox-subgroup" style="width:100%;;;;"><tbody><tr><td class="navbox-group" style=";padding-left:0em;padding-right:0em;background: #dde6ff; width: auto;"><div style="padding:0em 0.75em;">东方</div></td><td style="text-align:left;border-left:2px solid #fdfdfd;width:100%;padding:0px;width: 93%;;" class="navbox-list navbox-odd"><div style="padding:0em 0.25em"><a href="" title="东方Project">东方Project</a> • <a href="" title="幻想乡">幻想乡</a> • <a href="" class="new" title="世界观（页面不存在）">世界观</a></div></td></tr><tr style="height:2px"><td></td></tr><tr><td class="navbox-group" style=";padding-left:0em;padding-right:0em;background: #dde6ff; width: auto;"><div style="padding:0em 0.75em;">制作方</div></td><td style="text-align:left;border-left:2px solid #fdfdfd;width:100%;padding:0px;width: 93%;;" class="navbox-list navbox-even"><div style="padding:0em 0.25em"><a href="" title="上海爱丽丝幻乐团">上海爱丽丝幻乐团</a> • <a href="" title="ZUN">ZUN</a>（<a href="" title="神主">神主</a>）</div></td></tr><tr style="height:2px"><td></td></tr><tr><td class="navbox-group" style=";padding-left:0em;padding-right:0em;background: #dde6ff; width: auto;"><div style="padding:0em 0.75em;">同人</div></td><td style="text-align:left;border-left:2px solid #fdfdfd;width:100%;padding:0px;width: 93%;;" class="navbox-list navbox-odd"><div style="padding:0em 0.25em"><a href="" title="同人">同人</a> • <a href="" title="二次同人">二次同人</a></div></td></tr></tbody></table><div></div></td><td style="width:0%;padding:0px 0px 0px 2px;" rowspan="5"></td></tr><tr style="height:2px"><td></td></tr><tr><td class="navbox-group" style=";background: #dde6ff; padding-left: 1em; padding-right: 1em; white-space: nowrap; text-align: right;">内容</td><td style="text-align:left;border-left:2px solid #fdfdfd;width:100%;padding:0px;background: transparent; text-align: left;background: #f7f7f7;" class="navbox-list navbox-even"><div style="padding:0em 0.25em"></div><table cellspacing="0" class="nowraplinks navbox-subgroup" style="width:100%;;;;"><tbody><tr><td class="navbox-group" style=";padding-left:0em;padding-right:0em;background: #dde6ff; width: auto;"><div style="padding:0em 0.75em;">官方作品</div></td><td style="text-align:left;border-left:2px solid #fdfdfd;width:100%;padding:0px;width: 93%;;" class="navbox-list navbox-odd"><div style="padding:0em 0.25em"><a href="" title="官方游戏">官方游戏</a> • <a href="" title="官方音乐列表">非CD官方音乐</a> • <a href="" title="官方音乐CD曲目列表">CD官方音乐</a>（<a href="" title="官方音乐CD">官方音乐CD</a>） • <a href="" title="官方书籍" class="mw-redirect">官方书籍</a> • <a href="" title="官方角色列表">官方角色</a></div></td></tr><tr style="height:2px"><td></td></tr><tr><td class="navbox-group" style=";padding-left:0em;padding-right:0em;background: #dde6ff; width: auto;"><div style="padding:0em 0.75em;">其他</div></td><td style="text-align:left;border-left:2px solid #fdfdfd;width:100%;padding:0px;width: 93%;;" class="navbox-list navbox-odd"><div style="padding:0em 0.25em"><a href="" title="西方Project">西方Project</a> • <a href="" title="其他ZUN参与的作品">其他ZUN参与的作品</a></div></td></tr></tbody></table><div></div></td></tr><tr style="height:2px"><td></td></tr><tr><td class="navbox-group" style=";background: #dde6ff; padding-left: 1em; padding-right: 1em; white-space: nowrap; text-align: right;">资料</td><td style="text-align:left;border-left:2px solid #fdfdfd;width:100%;padding:0px;background: transparent; text-align: left;background: transparent;" class="navbox-list navbox-odd"><div style="padding:0em 0.25em"></div><table cellspacing="0" class="nowraplinks navbox-subgroup" style="width:100%;;;;"><tbody><tr><td class="navbox-group" style=";padding-left:0em;padding-right:0em;background: #dde6ff; width: auto;"><div style="padding:0em 0.75em;">年表</div></td><td style="text-align:left;border-left:2px solid #fdfdfd;width:100%;padding:0px;width: 93%;;" class="navbox-list navbox-odd"><div style="padding:0em 0.25em"><a href="" title="东方年表">东方年表</a> • <a href="" title="幻想乡年表">幻想乡年表</a></div></td></tr><tr style="height:2px"><td></td></tr><tr><td class="navbox-group" style=";padding-left:0em;padding-right:0em;background: #dde6ff; width: auto;"><div style="padding:0em 0.75em;">常用资料</div></td><td style="text-align:left;border-left:2px solid #fdfdfd;width:100%;padding:0px;width: 93%;;" class="navbox-list navbox-even"><div style="padding:0em 0.25em"><strong class="selflink">东方公式资料源</strong> • <a href="" title="游戏术语">游戏术语</a> • <a href="" title="简称与英文称呼">简称与英文称呼</a> • <a href="" title="东方关联人物列表">东方关联人物列表</a></div></td></tr><tr style="height:2px"><td></td></tr><tr><td class="navbox-group" style=";padding-left:0em;padding-right:0em;background: #dde6ff; width: auto;"><div style="padding:0em 0.75em;">其他资料</div></td><td style="text-align:left;border-left:2px solid #fdfdfd;width:100%;padding:0px;width: 93%;;" class="navbox-list navbox-odd"><div style="padding:0em 0.25em"><a href="" title="模板:细节资料导航">细节资料导航</a> • <a href="" class="new" title="东方相关站点（页面不存在）">东方相关站点</a> • <a href="" title="东方常见问题整理">东方常见问题整理</a></div></td></tr></tbody></table><div></div></td></tr></tbody></table></td></tr></tbody></table>
+
+</div>
+<div id="catlinks" class="catlinks"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="" title="特殊:页面分类">1个分类</a>：<ul><li><a href="" class="new" title="分类:资料（页面不存在）">资料</a></li></ul></div></div>
+	<div id="mw-data-after-content">
+		<div id="ExtFixedHeader" class="ExtFixedHeaderLower"></div>
+	</div>
+	<div class="visualClear"></div>
+</div>
+		</div>
+	<div id="footer" role="contentinfo">
+</div>
+<script src="./src/DEMO.js"></script>
+</body>
+</html>

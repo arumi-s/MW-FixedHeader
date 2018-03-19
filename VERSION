@@ -1,0 +1,41 @@
+﻿Version Log:
+
+v1.0.0
+  features:
+    -use <fixed /> to enable fixed header to h2 headers manually
+    -use <fixed off /> to disable fixed header to h2 headers manually
+    -use <fixed h3 /> to enable fixed header to h3 headers manually
+    -use <fixed h3="off" /> to disable fixed header to h3 headers manually
+    -use <fixed fade="number" /> to set fade out distance manually
+    -set $wgFixedHeaderAutoEnable to enable fixed header to h2 headers on all pages automatically
+    -set $egFixedHeaderEnableH3Headers to enable fixed header to h3 headers on all pages automatically
+    -set $egFixedHeaderFadeOutDistance to set default fade out distance
+    -need to do some changes to common.js and common.css manually in order to work
+  changes:
+    -none
+  defaults:
+    -$wgFixedHeaderAutoEnable = false
+    -$egFixedHeaderEnableH3Headers = false
+    -$egFixedHeaderFadeOutDistance = 30
+
+v1.1.0
+  features:
+    -have the js and css files inside extension's directory
+    -load js and css files automatically
+  changes:
+    -no need to change common.js and common.css any more
+    -remove some inappropriate magic words
+  defaults:
+    -$wgFixedHeaderAutoEnable = false
+    -$egFixedHeaderEnableH3Headers = true
+    -$egFixedHeaderFadeOutDistance = 30
+
+v1.2.0
+  features:
+    -optimise js code sructure
+  changes:
+    -
+  defaults:
+    -$wgFixedHeaderAutoEnable = false
+    -$egFixedHeaderEnableH3Headers = true
+    -$egFixedHeaderFadeOutDistance = 30
